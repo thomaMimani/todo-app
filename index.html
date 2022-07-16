@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ToDo App</h1>
+        </header>
+        <div class="plus">+</div>
+        <hr>
+        <div class="todo-list" style="background-color: grey;">
+            <div class="checkbox"></div>
+            <div class="title-list"></div>
+            <div class="description-list"></div>
+        </div>
+    </div>
+    <!-- Todo PopUp -->
+    <div class="todo">
+        <div class="title-div">
+            <input type="text" class="title" placeholder="Title">
+        </div>
+        <div class="description-div">
+            <input type="text" class="description" placeholder="Description">
+        </div>
+        <div class="hour">
+            <input class="hour" type="number">:<input type="number" class="minutess">
+        </div>
+        <div class="add">
+            <button onclick="add()">Add</button>
+        </div>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>
